@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donn Gordon | Detection Engineering</title>
+<meta name="description" content="Detection Engineering Lead, Cyber Range Engineer, Penetration Tester and Red Teamer. Sigma detections mapped to MITRE ATT&CK.">
+<style>
+:root{--bg:#0a101c;--panel:#101a2c;--line:#1d2c47;--text:#e8eef7;--muted:#9fb0c7;--accent:#46c8dc;--accent2:#6fe3a6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:5;background:rgba(10,16,28,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav .brand{font-weight:700;color:var(--text);letter-spacing:.3px}
+nav .links a{margin-left:22px;color:var(--muted);font-size:14px}
+nav .links a:hover{color:var(--text);text-decoration:none}
+.hero{padding:96px 0 72px;background:radial-gradient(900px 420px at 85% 0%,rgba(70,200,220,.16),transparent 60%),linear-gradient(180deg,#0a101c,#0c1526)}
+.eyebrow{color:var(--accent);font:600 13px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:2px;text-transform:uppercase}
+h1{font-size:clamp(38px,6vw,64px);line-height:1.08;margin:18px 0 14px;letter-spacing:-1px}
+.roles{font-size:clamp(17px,2.2vw,22px);color:var(--accent);margin:0 0 20px;font-weight:600}
+.lead{max-width:680px;color:var(--muted);font-size:18px;margin:0 0 32px}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:600;margin:0 10px 10px 0}
+.btn.primary{background:var(--accent);color:#06222a}
+.btn.primary:hover{background:#7ae0ee;text-decoration:none}
+.btn.ghost{border:1px solid var(--line);color:var(--text)}
+.btn.ghost:hover{border-color:var(--accent);text-decoration:none}
+section{padding:72px 0;border-top:1px solid var(--line)}
+h2{font-size:30px;margin:0 0 10px;letter-spacing:-.4px}
+.sub{color:var(--muted);margin:0 0 36px;max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px;transition:transform .15s,border-color .15s}
+.card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.card h3{margin:0 0 8px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.tag{display:inline-block;font:12px ui-monospace,Menlo,Consolas,monospace;color:var(--accent2);margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:7px 15px;font-size:14px;color:var(--text)}
+.certs .chip{border-color:rgba(111,227,166,.35)}
+pre{background:#070c16;border:1px solid var(--line);border-radius:12px;padding:20px;overflow:auto;font:13.5px/1.6 ui-monospace,Menlo,Consolas,monospace;color:#cfe3f7}
+article h3{margin:34px 0 8px;font-size:20px}
+article p,article li{color:var(--muted)}
+article code{background:#070c16;border:1px solid var(--line);border-radius:5px;padding:1px 6px;color:var(--text);font-size:.9em}
+footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+@media(max-width:640px){nav .links{display:none}.hero{padding:64px 0 48px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><span class="brand">Donn Gordon</span><span class="links"><a href="#focus">Focus</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#writing">Writing</a></span></div></nav>
+
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Washington, DC</div>
+<h1>Donn Gordon</h1>
+<p class="roles">Detection Engineering Lead · Cyber Range Engineer · Penetration Testing &amp; Red Teaming</p>
+<p class="lead">I turn attacker behavior into high-quality detections and build the cyber range environments where defenders and attackers train. I love to create and design software, and I write the automation that makes security engineering repeatable.</p>
+<a class="btn primary" href="https://github.com/donngordon/detection-rules">View detection rules</a>
+<a class="btn ghost" href="#writing">Read the write-up</a>
+</div></header>
+
+<section id="focus"><div class="wrap">
+<h2>What I do</h2>
+<p class="sub">Fifteen years across enterprise cyber operations, production SOC environments and government and commercial engagements.</p>
+<div class="grid">
+<div class="card"><span class="tag">01 / DETECT</span><h3>Detection Engineering</h3><p>SIEM-integrated detections in Sigma, Splunk Enterprise Security, Microsoft Sentinel, Security Onion and ELK, aligned to MITRE ATT&amp;CK.</p></div>
+<div class="card"><span class="tag">02 / BUILD</span><h3>Cyber Range Engineering</h3><p>Enterprise-scale ranges with Active Directory, VMware, KVM and Hyper-V, plus the telemetry pipelines that feed SOC training and detection validation.</p></div>
+<div class="card"><span class="tag">03 / ATTACK</span><h3>Penetration Testing &amp; Red Teaming</h3><p>Penetration tests, phishing simulations and adversary emulation that show defenders where visibility is missing.</p></div>
+<div class="card"><span class="tag">04 / ANALYZE</span><h3>Malware Analysis Labs</h3><p>Sandbox environments built with REMnux, FLARE-VM and Cuckoo for studying advanced threats safely.</p></div>
+<div class="card"><span class="tag">05 / CREATE</span><h3>Software &amp; Automation</h3><p>Python, PowerShell, Bash and Ansible tooling that deploys ranges, moves telemetry and speeds up investigations.</p></div>
+</div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Toolbox</h2>
+<p class="sub">Platforms, languages and certifications.</p>
+<div class="chips">
+<span class="chip">Sigma</span><span class="chip">Splunk ES</span><span class="chip">Microsoft Sentinel</span><span class="chip">Security Onion</span><span class="chip">ELK</span><span class="chip">Snort</span><span class="chip">Zeek</span><span class="chip">MITRE ATT&amp;CK</span><span class="chip">Cobalt Strike</span><span class="chip">Python</span><span class="chip">PowerShell</span><span class="chip">Bash</span><span class="chip">Ansible</span><span class="chip">Active Directory</span><span class="chip">AWS</span><span class="chip">REMnux</span><span class="chip">FLARE-VM</span>
+</div>
+<h3 style="margin:34px 0 14px">Certifications</h3>
+<div class="chips certs">
+<span class="chip">OSCP</span><span class="chip">eWPTX</span><span class="chip">CEH</span><span class="chip">CND</span><span class="chip">ECIH v2</span><span class="chip">CTIA</span><span class="chip">CSA</span><span class="chip">AWS Cloud Practitioner</span>
+</div>
+<p class="sub" style="margin-top:24px">PhD in Cybersecurity, Capitol Technology University (in progress).</p>
+</div></section>
+
+<section id="work"><div class="wrap">
+<h2>Work</h2>
+<p class="sub">Original, sanitized detection content.</p>
+<div class="grid">
+<a class="card" href="https://github.com/donngordon/detection-rules" style="text-decoration:none;color:inherit"><span class="tag">GITHUB</span><h3>detection-rules</h3><p>Original Sigma rules for encoded PowerShell, LSASS access and remote service creation, mapped to MITRE ATT&amp;CK with required telemetry and tuning notes.</p></a>
+</div>
+</div></section>
+
+<section id="writing"><div class="wrap"><article>
+<h2>Detecting Suspicious PowerShell Execution with Sigma</h2>
+<p class="sub">PowerShell is on every Windows host, trusted by administrators and heavily used by attackers (ATT&amp;CK T1059.001). A rule that fires whenever it runs buries analysts in noise, and one that is too narrow misses obfuscation. Good detection sits between the two.</p>
+
+<h3>Telemetry you need</h3>
+<ul>
+<li><b>Process creation with command lines:</b> Sysmon Event ID 1, or Windows Security Event ID 4688 with command-line auditing enabled.</li>
+<li><b>Script block content:</b> PowerShell Event ID 4104 for rules that inspect what actually ran.</li>
+<li><b>Context:</b> parent process, user and host, to separate administration from attacker behavior.</li>
+</ul>
+
+<h3>Approach</h3>
+<p>I write detections in Sigma so the logic stays portable, then convert to each SIEM with sigma-cli. For PowerShell I think in three layers: command-line flags, script block content, and context such as unusual parents and accounts.</p>
+
+<h3>Example: encoded PowerShell</h3>
+<pre>title: Suspicious Encoded PowerShell Command Line
+status: experimental
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_img:
+    Image|endswith:
+      - '\powershell.exe'
+      - '\pwsh.exe'
+  selection_flags:
+    CommandLine|contains:
+      - ' -enc '
+      - ' -EncodedCommand '
+      - ' -ec '
+  condition: selection_img and selection_flags
+falsepositives:
+  - Legitimate administration scripts
+  - Software deployment tools
+level: medium
+tags:
+  - attack.execution
+  - attack.t1059.001</pre>
+
+<h3>Tuning</h3>
+<p>Administration and deployment tools also use encoded commands. Expect to exclude known parent processes, service accounts and management hosts before using this in production, and revisit those exclusions regularly.</p>
+
+<h3>Limitations</h3>
+<ul>
+<li>Attackers can rename the binary or use other abbreviations of the flag, so this is one layer, not full coverage.</li>
+<li>Obfuscation inside the script needs script block logging to catch.</li>
+<li>Without command-line auditing the rule has nothing to match, so verify your telemetry before trusting a silent rule.</li>
+</ul>
+
+<h3>References</h3>
+<ul>
+<li><a href="https://attack.mitre.org/techniques/T1059/001/">MITRE ATT&amp;CK T1059.001: PowerShell</a></li>
+<li><a href="https://github.com/SigmaHQ/sigma-specification">Sigma rule specification</a></li>
+</ul>
+</article></div></section>
+
+<footer><div class="wrap">Donn Gordon · Detection Engineering · <a href="https://github.com/donngordon">GitHub</a></div></footer>
+</body>
+</html>
